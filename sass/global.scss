@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.see-the-best {
+    width: 1350px;
+    height: 663px;
+
+    .see-the-besttext {
+        text-align: center;
+        margin-left: 155px;
+        padding: 15px;
+        h1 {
+            font-family: "Readex Pro", sans-serif;
+            font-size: 52px;
+            font-weight: 400;
+            line-height: 52px;
+            padding: 9px;
+        }
+        p{
+            font-family: "Readex Pro" , sans-serif ;
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 16px;
+            
+        }
+    }
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 165px;
+  }
+  
+  .card {
+    width: 413px;
+    height: 453px;        
+    padding: 20px;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  img {
+    width: 70%;
+    text-align: center;
+    margin-left:25px;
+    margin-top: 15px;
+  }
+  
+  .card-title {
+    font-size: 14px;
+    font-weight:1550;
+    margin-bottom: 10px;
+    margin-left: 65px;
+    font-family: "Readex Pro" , sans-serif ;
+  }
+  
+  .card-description1 {
+    font-size: 35px;
+    font-weight:1550;
+    margin-bottom: 10px;
+    margin-left: 11px;
+    font-family: "Readex Pro" , sans-serif ;
+  }
+  .card-description2 {
+    font-size: 38px;
+    font-weight:1550;
+    margin-top: 10px;
+    margin-left: 39px;
+    font-family: "Readex Pro" , sans-serif ;
+  }
+  .card-description22 {
+    font-size: 38px;
+    font-weight:1550;
+    margin-top: 10px;
+    margin-left: 39px;
+    font-family: "Readex Pro" , sans-serif ;
+  }  
+  .card-description3 {
+    font-size: 35px;
+    font-weight:1550;
+    margin-bottom: 10px;
+    margin-left: 31px;
+    font-family: "Readex Pro" , sans-serif ;
+  }
+  
+  .card-button {
+    background-color: #ffffff;
+    color: #2e2e2e;
+    border: 1 solid;
+    padding: 11px 40px;
+    border-radius: 14px;
+    cursor: pointer;
+    margin-left: 75px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .card-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+}
