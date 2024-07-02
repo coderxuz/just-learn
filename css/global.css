@@ -81,6 +81,7 @@ ol {
   border-radius: 32px;
   background-color: #DCE5E2;
   padding: 0 18px;
+  position: relative;
 }
 .sec1-left {
   width: 50%;
@@ -122,4 +123,19 @@ ol {
 .sec1-right {
   display: flex;
   align-items: center;
+}
+.sec1-restange {
+  z-index: 1;
+  width: 194px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  bottom: 34px;
+  left: 322px;
+}
+.sec1-restange:nth-child(2) {
+  left: 550px;
+}
+.sec1-restange:nth-child(3) {
+  left: 776px;
 }/*# sourceMappingURL=global.css.map */
