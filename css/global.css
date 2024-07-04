@@ -1,4 +1,69 @@
 @font-face {
+<<<<<<< HEAD
+  font-family: Readex-Pro;
+  src: url(../fonts/ReadexPro-VariableFont_HEXP\,wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Readex-Pro;
+}
+
+.container {
+  width: 1350px;
+  height: 606px;
+  margin: 0 auto;
+}
+
+.section-inner {
+  width: 1294px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 9px;
+}
+.section-inner h1 {
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 52.5px;
+}
+.section-inner p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16.8px;
+}
+.section-theme {
+  width: 1294px;
+  height: 396px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-theme .box {
+  width: 307.5px;
+  height: 396px;
+  display: flex;
+  flex-direction: column;
+}
+.section-theme .box .box-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section-theme .box h2 {
+  font-family: "Readex-Pro";
+  color: #000000;
+  font-size: 22px;
+}
+.section-theme .box p {
+  font-style: 14px;
+  margin: 9px 0 23px 0;
+  color: #4b4b4b;
+=======
   font-family: Inter;
   src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
@@ -359,4 +424,5 @@ ol {
   border: 1px solid transparent;
   background-color: #000;
   color: #DCE5E2;
+>>>>>>> 76f7f014cbece37eb2b686e9995844f0a70e6b82
 }/*# sourceMappingURL=global.css.map */
